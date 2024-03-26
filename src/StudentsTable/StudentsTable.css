@@ -3,25 +3,24 @@ section {
     margin: 10px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    ;
 }
 
-.module-table {
-    max-width: 600px;
+.student-table {
+    max-width: 1220px;
     max-height: 816px;
     margin: 10px;
     position: relative;
     overflow: auto;
 }
 
-.module-table thead {
+.student-table thead {
     position: sticky;
     top: 0;
     background-color: #FFFFFF;
     z-index: 1;
 }
 
-.module-table tbody td {
+.student-table tbody td {
     border-bottom: 1px solid #ddd;
     font-family: PT Sans;
     font-size: 16px;
@@ -30,13 +29,13 @@ section {
     text-align: left;
 }
 
-.module-table table {
+.student-table table {
     width: 100%;
     border-collapse: collapse;
     overflow: auto;
 }
 
-.module-table thead th {
+.student-table thead th {
     font-family: PT Sans;
     font-size: 16px;
     font-weight: 700;
@@ -44,11 +43,11 @@ section {
     text-align: left;
 }
 
-.module-table thead th div {
+.student-table thead th div {
     margin-right: 10px;
 }
 
-.module-table th {
+.student-table th {
     background-color: #FFFFFF;
     border-bottom: 1px solid #ddd;
     cursor: pointer;
